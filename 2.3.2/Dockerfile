@@ -1,6 +1,6 @@
 FROM mysql:5.7.28
 
-MAINTAINER 应卓 <yingzhor@gmail.com>
+LABEL maintainer="应卓 <yingzhor@gmail.com>"
 
 ENV MYSQL_DATABASE=quartz \
     MYSQL_USER=quartz \
